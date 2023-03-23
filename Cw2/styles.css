@@ -27,12 +27,13 @@ h1,h2{
 th {
     background-color: #f2f2f2;
 }
-td a:hover {
+td:hover {
     text-decoration: underline;
+    
+    background-color: #f2f;
 }
-td a:active {
-  box-shadow: 2px 4px 5px purple;
-  background-color: #f2f;
+td:active {
+  box-shadow: 2px 4px 5px blue;
 }
 td a:visited {
   color: #555;
